@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>planacea</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <style>
+        h1 {
+            text-align: center;
+            font-family: 'Mitr', sans-serif;
+            font-weight: 300;
+        }
+        h2 {
+            text-align: center;
+            font-family: 'Mitr', sans-serif;
+            font-weight: 400;
+        }
+
+        .center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+ 
+
+        @media only screen and (max-width: 600px) {
+            .example {
+                background-color: lightblue;
+            }
+        }
+
+        span{
+            color: #e4e3d1;
+            font-size: 20px;
+        }
+
+        /* nav */
+        .sidenav {
+        
+  display: none;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.sidenav a {
+
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body bgcolor="#143F6b">
+    <div style = "font-family: 'Mitr', sans-serif;">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="/jwc12-workshop-f-master/index.html">HOME</a>
+          <a href="/jwc12-workshop-f-master/form.html">FORM</a>
+
+        
+        </div>
+        
+        
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Planacea</span>
+        
+        <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.display = "block";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.display = "none";
+        }
+        </script>
+        </div> 
+
+    
+    <div
+        style="padding: 0 50px; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: space-between; height: 1200px;">
+        <div style="width: 100%;">
+            <h1 style=" color:white;"><span style="font-size: 100px; letter-spacing: -0.3em;">P</span>lanacea</h1>
+            <hr style="width: 100%">
+        </div>
+
+        <div style="padding: 0 50px; display: flex;" class="center">
+            <div style="width: 70px; height: 70px; background: #e5e8eb; border-radius: 50%; display: flex;" class="center">
+                <img src="/jwc12-workshop-f-master/src/Group_7.png"width="470" alt="logo">
+            </div>
+
+        </div>
+
+        <h2 class="example" style=" color:white; ">Call planner, Call Planacea<br/><span>เว็ปไซต์ที่ช่วยให้นักเรียนสามารถเข้าถึงการจัดแพลนเนอร์อย่างเหมาะสมกับตัวเอง</span></h2>
+
+        <div>
+            <a class="CA"href="/jwc12-workshop-f-master/form.html">
+                <button
+                    style="width:200px; padding: 15px; background-color: #fffe9c ; border:0px; font-family: Mitr; border-radius: 30px; font-size:15px; margin-bottom: 200px; cursor: pointer;" class="newbu"
+                    >Get Start Now</button>
+            </a>
+        </div>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-3864fdce-546c-411a-9370-673b3c65ffe5"></div>
+</body>
+
+</html>

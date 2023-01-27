@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+
+*{
+    font-family: 'Mitr', sans-serif;
+}
+
+body{
+    background-color: #143F6B;
+}
+
+.form-section{
+    margin-left: -50px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Mitr', sans-serif;
+    background-color: #FEB139;
+}
+.btn btn-primary btn-lg active{
+    width: 20px;
+}
+.up{
+    height: 80px;
+}
+
+h1{
+    font-family: 'Mitr', sans-serif;
+    color: white;
+}
+
+.chat{
+    right: 70px;
+    bottom: 70px;
+    position: fixed;
+    
+  }
+  
+.chatimg{
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+  }
